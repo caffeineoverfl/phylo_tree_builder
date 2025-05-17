@@ -1,0 +1,4 @@
+biopython
+matplotlib
+scikit-bio
+ete3
