@@ -4,11 +4,11 @@ A Python tool to build and visualize phylogenetic trees from DNA or protein sequ
 ## Project Structure: <br>
 
 ```bash
-phylo_tree_builder/<br>
+phylo_tree_builder/
 ├── data/                      # Raw and processed data 
 │   └── example.fasta          # Sample input 
 ├── src/                       # Source code 
-│   ├── __init__.py <br>
+│   ├── __init__.py
 │   ├── parser.py              # FASTA input parser 
 │   ├── aligner.py             # Handles sequence alignment 
 │   ├── distance_matrix.py     # Builds distance matrix 
