@@ -1,3 +1,5 @@
+# Computes a distance matrix from aligned sequences using Biopython's DistanceCalculator
+
 from Bio import AlignIO
 from Bio.Phylo.TreeConstruction import DistanceCalculator
 

@@ -1,3 +1,5 @@
+# Reads a FASTA file and returns a dictionary of {sequence_id: sequence_string}
+
 from Bio import SeqIO
 
 def read_fasta(filepath):

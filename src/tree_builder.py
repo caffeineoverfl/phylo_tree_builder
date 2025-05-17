@@ -1,3 +1,5 @@
+# Builds a phylogenetic tree using UPGMA or Neighbor Joining
+
 from Bio.Phylo.TreeConstruction import DistanceTreeConstructor
 
 def build_tree(distance_matrix, method="nj"):

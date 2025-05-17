@@ -1,3 +1,5 @@
+# Draws the tree using Biopython and matplotlib
+
 from Bio import Phylo
 import matplotlib.pyplot as plt
 
