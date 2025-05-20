@@ -1,4 +1,4 @@
-# Phylogenetic Tree Builder (still in development)
+# Phylogenetic Tree Builder
 A Python tool to build and visualize phylogenetic trees from DNA or protein sequences. This project takes FASTA files, performs sequence alignment, constructs evolutionary trees using algorithms like UPGMA or Neighbor Joining, and renders them as static or interactive visualizations.
 
 ## Project Structure: <br>
