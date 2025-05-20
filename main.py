@@ -12,8 +12,8 @@ def main():
     # Run alignment
     aligned = aligner.run_clustal_omega(input_fasta)
     dist_matrix = distance_matrix.compute_distance_matrix(aligned)
-    tree = tree_builder.build_tree(dist_matrix)
-    visualizer.visualize_tree(tree)
+    tree_newick = tree_builder.build_tree_upgma(aligned)
+    visualizer.visualize_tree_interactive(tree_newick)
 
 if __name__ == "__main__":
     main()
