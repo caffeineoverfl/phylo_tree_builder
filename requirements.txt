@@ -2,3 +2,4 @@ biopython
 matplotlib
 scikit-bio
 ete3
+pyqt5
